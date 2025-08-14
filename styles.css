@@ -224,7 +224,10 @@ body {
 /* Features Section */
 .features {
     padding: 80px 0;
-    background: #f9fafb;
+    background: linear-gradient(rgba(249, 250, 251, 0.95), rgba(249, 250, 251, 0.95)), url('https://childcaredesign.com/wp-content/uploads/2023/11/IMG_3368-scaled.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .features-grid {
@@ -275,7 +278,10 @@ body {
 /* Safety Section */
 .safety {
     padding: 80px 0;
-    background: white;
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("https://cdn.abacus.ai/images/893998b7-fbca-4e94-820a-9d66eef18ee7.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .safety-content {
@@ -324,7 +330,10 @@ body {
 /* Pricing Section */
 .pricing {
     padding: 80px 0;
-    background: #f9fafb;
+    background: linear-gradient(rgba(249, 250, 251, 0.95), rgba(249, 250, 251, 0.95)), url("https://cdn.abacus.ai/images/574c8512-f6a9-4f8a-b695-a5e93f8391ed.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .pricing-grid {
@@ -418,7 +427,10 @@ body {
 /* FAQ Section */
 .faq {
     padding: 80px 0;
-    background: white;
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("https://cdn.abacus.ai/images/c032ab98-7f3c-42d4-8588-528e3476d7d0.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .faq-container {
@@ -476,7 +488,10 @@ body {
 /* Contact Section */
 .contact {
     padding: 80px 0;
-    background: #f9fafb;
+    background: linear-gradient(rgba(249, 250, 251, 0.95), rgba(249, 250, 251, 0.95)), url("https://thumbs.dreamstime.com/b/modern-minimalist-home-office-setting-zoom-background-modern-minimalist-home-office-setting-sleek-white-desk-stylish-305415129.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .contact-content {
