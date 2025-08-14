@@ -224,10 +224,13 @@ body {
 /* Features Section */
 .features {
     padding: 80px 0;
+    background-color: #f9fafb;
     background: linear-gradient(rgba(249, 250, 251, 0.95), rgba(249, 250, 251, 0.95)), url('https://childcaredesign.com/wp-content/uploads/2023/11/IMG_3368-scaled.webp');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 
 .features-grid {
@@ -278,10 +281,13 @@ body {
 /* Safety Section */
 .safety {
     padding: 80px 0;
+    background-color: white;
     background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("https://cdn.abacus.ai/images/893998b7-fbca-4e94-820a-9d66eef18ee7.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 
 .safety-content {
@@ -329,11 +335,13 @@ body {
 
 /* Pricing Section */
 .pricing {
+    background-color: #f9fafb;
     padding: 80px 0;
     background: linear-gradient(rgba(249, 250, 251, 0.95), rgba(249, 250, 251, 0.95)), url("https://cdn.abacus.ai/images/574c8512-f6a9-4f8a-b695-a5e93f8391ed.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .pricing-grid {
@@ -431,6 +439,7 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .faq-container {
@@ -492,6 +501,7 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .contact-content {
@@ -618,6 +628,17 @@ body {
     padding-top: 2rem;
     text-align: center;
     color: #9ca3af;
+}
+
+/* Background image mobile optimizations */
+@media (max-width: 768px) {
+    .features,
+    .safety,
+    .pricing,
+    .faq,
+    .contact {
+        background-attachment: scroll !important;
+    }
 }
 
 /* Responsive Design */
